@@ -101,9 +101,7 @@ int main(){
     gpio_set_irq_enabled_with_callback(button_A, GPIO_IRQ_EDGE_FALL, true, &gpio_irq_handler); // Habilita a interrupção do botão A
 
     while (true){
-        // Leitura dos ADCs:
-        // Observação: conforme o código original, o canal 0 é utilizado para o eixo Y
-        // e o canal 1 para o eixo X.
+        // Leitura dos ADCs
         adc_select_input(0); // Seleciona o ADC para o eixo Y (pino 27)
         adc_value_y = adc_read();
         adc_select_input(1); // Seleciona o ADC para o eixo X (pino 26)
@@ -152,8 +150,6 @@ int main(){
         } else {
             brilho_blue = 0;
         }
-
-        // Se a diferença ultrapassar a zona de desligamento, mapeia para 0 a 255
         
 
         // Atualiza o PWM dos LEDs
