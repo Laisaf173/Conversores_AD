@@ -31,4 +31,4 @@ O display OLED mostra:
 - Um quadrado que se move conforme a posição do joystick
 - Borda dupla opcional (ativada pelo botão do joystick)
 
-Vídeo mostrando o funcionamento do projeto: https://drive.google.com/file/d/1WoNXvtLAKVECvAQ86igmws_YM57H_YGf/view?usp=sharing
+Vídeo mostrando o funcionamento do projeto: https://drive.google.com/file/d/1ojcnHcFQfU2XleDYha7tzDW9EQX53DLi/view?usp=sharing
